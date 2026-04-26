@@ -1,0 +1,83 @@
+import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
+
+import appCss from "../styles.css?url";
+
+function NotFoundComponent() {
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-background px-4">
+      <div className="max-w-md text-center">
+        <h1 className="text-7xl font-bold text-foreground">404</h1>
+        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>
+        <p className="mt-2 text-sm text-muted-foreground">
+          The page you're looking for doesn't exist or has been moved.
+        </p>
+        <div className="mt-6">
+          <Link
+            to="/"
+            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+          >
+            Go home
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export const Route = createRootRoute({
+  head: () => ({
+    meta: [
+      { charSet: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { title: "Muhammad Fayaz — Full-Stack .NET Developer" },
+      {
+        name: "description",
+        content:
+          "Portfolio of Muhammad Fayaz — Full-Stack .NET Developer building SaaS platforms with .NET & React.",
+      },
+      { name: "author", content: "Muhammad Fayaz" },
+      { name: "theme-color", content: "#0a0e1a" },
+      { property: "og:title", content: "Muhammad Fayaz — Full-Stack .NET Developer" },
+      {
+        property: "og:description",
+        content: "Building scalable SaaS platforms & web APIs with .NET & React.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
+      { name: "twitter:site", content: "@Dev_MFM921" },
+      { name: "twitter:title", content: "Muhammad Fayaz — Full-Stack .NET Developer" },
+      { name: "description", content: "A premium dark-themed developer portfolio showcasing experience, projects, and skills with advanced UI/UX design." },
+      { property: "og:description", content: "A premium dark-themed developer portfolio showcasing experience, projects, and skills with advanced UI/UX design." },
+      { name: "twitter:description", content: "A premium dark-themed developer portfolio showcasing experience, projects, and skills with advanced UI/UX design." },
+      { property: "og:image", content: "/profile-photo.png" },
+      { name: "twitter:image", content: "/profile-photo.png" },
+    ],
+    links: [
+      {
+        rel: "stylesheet",
+        href: appCss,
+      },
+    ],
+  }),
+  shellComponent: RootShell,
+  component: RootComponent,
+  notFoundComponent: NotFoundComponent,
+});
+
+function RootShell({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <head>
+        <HeadContent />
+      </head>
+      <body>
+        {children}
+        <Scripts />
+      </body>
+    </html>
+  );
+}
+
+function RootComponent() {
+  return <Outlet />;
+}
