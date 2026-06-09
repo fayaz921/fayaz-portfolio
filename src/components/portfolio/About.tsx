@@ -53,9 +53,9 @@ export function About() {
               <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
                 I started at <span className="text-electric">Netrex Solutions</span> shipping
                 projects with ASP.NET Core, Blazor, EF Core, and PostgreSQL — applying Clean
-                Architecture across multiple modules. Today I'm interning at{" "}
-                <span className="text-electric">10Pearls Pakistan</span> (Shine Program, Cohort 8)
-                while leading the development of the{" "}
+                Architecture across multiple modules. {" "}
+                <span className="text-electric"></span>
+                Currently leading the development of the{" "}
                 <span className="text-foreground">Litigation Tracking System</span> — a SaaS case
                 management platform for law firms built on{" "}
                 <span className="font-mono text-sm text-cyan-glow">
