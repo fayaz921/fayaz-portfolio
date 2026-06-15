@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { Mail, Github, Linkedin, Send, MapPin } from "lucide-react";
+import { Mail, Github, Linkedin, Send, MapPin, Phone } from "lucide-react";
 import { SectionHeader } from "./SectionHeader";
 
 export function Contact() {
@@ -9,9 +9,7 @@ export function Contact() {
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const subject = encodeURIComponent(`Portfolio contact from ${form.name || "site"}`);
-    const body = encodeURIComponent(
-      `Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`,
-    );
+    const body = encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`);
     window.location.href = `mailto:mfayaz21703@gmail.com?subject=${subject}&body=${body}`;
   };
 
@@ -62,11 +60,26 @@ export function Contact() {
                   <div className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
                     Based in
                   </div>
-                  <div className="text-sm font-medium text-foreground">
-                    Dera Ismail Khan, KP, Pakistan
-                  </div>
+                  <div className="text-sm font-medium text-foreground">Islamabad, Pakistan</div>
                 </div>
               </div>
+
+              <a
+                href="tel:+923305453777"
+                className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-4 transition-all hover:border-electric/40 hover:bg-electric/5"
+              >
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-electric/20 to-cyan-glow/20 text-electric">
+                  <Phone className="h-5 w-5" />
+                </div>
+                <div>
+                  <div className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
+                    Phone
+                  </div>
+                  <div className="text-sm font-medium text-foreground transition-colors group-hover:text-electric">
+                    +92-330-5453777
+                  </div>
+                </div>
+              </a>
 
               <div className="flex gap-3">
                 {[
@@ -149,7 +162,7 @@ export function Contact() {
                 value={form.message}
                 onChange={(e) => setForm({ ...form, message: e.target.value })}
                 className="w-full resize-none rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-foreground outline-none transition-all placeholder:text-muted-foreground focus:border-electric/50 focus:bg-electric/5"
-                placeholder="Tell me about your project, role, or idea…"
+                placeholder="Tell me about your project, role, or idea..."
               />
             </div>
             <button
@@ -177,7 +190,7 @@ export function Contact() {
             <span className="text-foreground">Fayaz</span>
           </div>
           <p className="font-mono text-xs text-muted-foreground">
-            © {new Date().getFullYear()} — Crafted with care, .NET & React.
+            (c) {new Date().getFullYear()} - Crafted with care, .NET & React.
           </p>
         </footer>
       </div>

@@ -29,26 +29,29 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Muhammad Fayaz — Full-Stack .NET Developer" },
+      { title: "Muhammad Fayaz - Full-Stack .NET Developer" },
       {
         name: "description",
         content:
-          "Portfolio of Muhammad Fayaz — Full-Stack .NET Developer building SaaS platforms with .NET & React.",
+          "Portfolio of Muhammad Fayaz - Full-Stack .NET Developer with 1+ year of experience building SaaS platforms with .NET & React.",
       },
       { name: "author", content: "Muhammad Fayaz" },
       { name: "theme-color", content: "#0a0e1a" },
-      { property: "og:title", content: "Muhammad Fayaz — Full-Stack .NET Developer" },
+      { property: "og:title", content: "Muhammad Fayaz - Full-Stack .NET Developer" },
       {
         property: "og:description",
-        content: "Building scalable SaaS platforms & web APIs with .NET & React.",
+        content:
+          "AWS DevArena 2026 winner building scalable SaaS platforms & web APIs with .NET & React.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Dev_MFM921" },
-      { name: "twitter:title", content: "Muhammad Fayaz — Full-Stack .NET Developer" },
-      { name: "description", content: "A premium dark-themed developer portfolio showcasing experience, projects, and skills with advanced UI/UX design." },
-      { property: "og:description", content: "A premium dark-themed developer portfolio showcasing experience, projects, and skills with advanced UI/UX design." },
-      { name: "twitter:description", content: "A premium dark-themed developer portfolio showcasing experience, projects, and skills with advanced UI/UX design." },
+      { name: "twitter:title", content: "Muhammad Fayaz - Full-Stack .NET Developer" },
+      {
+        name: "twitter:description",
+        content:
+          "AWS DevArena 2026 winner building scalable SaaS platforms & web APIs with .NET & React.",
+      },
       { property: "og:image", content: "/profile-photo.png" },
       { name: "twitter:image", content: "/profile-photo.png" },
     ],

@@ -6,7 +6,7 @@ const highlights = [
   {
     icon: Code2,
     label: "Production-ready",
-    text: "Real apps shipped to real clients — not tutorial code.",
+    text: "Real apps shipped to real clients, not tutorial code.",
   },
   {
     icon: Layers,
@@ -20,8 +20,8 @@ const highlights = [
   },
   {
     icon: Zap,
-    label: "Tech Lead mindset",
-    text: "Leading SaaS dev, code reviews, system design.",
+    label: "Award-winning builder",
+    text: "AWS DevArena 2026 winner for Litigation Tracking System.",
   },
 ];
 
@@ -32,7 +32,7 @@ export function About() {
         <SectionHeader
           eyebrow="About"
           title="A developer who ships"
-          description="Full-Stack .NET Developer based in Pakistan, with hands-on production experience building SaaS platforms, web APIs, and enterprise apps."
+          description="Full-Stack .NET Developer based in Islamabad, Pakistan, with 1+ year of experience building SaaS platforms, web APIs, and enterprise apps."
         />
 
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1.2fr_1fr]">
@@ -47,24 +47,28 @@ export function About() {
             <div className="relative flex flex-col gap-5">
               <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
                 I'm a <span className="font-medium text-foreground">Full-Stack .NET Developer</span>{" "}
-                with hands-on production experience building real web applications, RESTful APIs,
-                and SaaS platforms for actual business clients.
+                with 1+ year of hands-on experience building real web applications, RESTful APIs,
+                and SaaS platforms for business clients.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
                 I started at <span className="text-electric">Netrex Solutions</span> shipping
-                projects with ASP.NET Core, Blazor, EF Core, and PostgreSQL — applying Clean
-                Architecture across multiple modules. Today I'm interning at{" "}
-                <span className="text-electric">10Pearls Pakistan</span> (Shine Program, Cohort 8)
-                while leading the development of the{" "}
-                <span className="text-foreground">Litigation Tracking System</span> — a SaaS case
-                management platform for law firms built on{" "}
+                projects with ASP.NET Core, Blazor, EF Core, SQL Server, and PostgreSQL, applying
+                Clean Architecture across multiple modules. I also completed the{" "}
+                <span className="text-electric">10Pearls Pakistan</span> .NET Fullstack internship,
+                where I built full-stack features with JWT auth, role-based access control, Serilog,
+                xUnit, and SonarQube.
+              </p>
+              <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
+                I lead development of the{" "}
+                <span className="text-foreground">Litigation Tracking System</span>, an AWS DevArena
+                2026 winning SaaS case management platform for law firms built on{" "}
                 <span className="font-mono text-sm text-cyan-glow">
                   ASP.NET 10 + React + Vertical Slice + CQRS
                 </span>
                 .
               </p>
               <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
-                I write code that works in the real world — and I care just as much about how it{" "}
+                I write code that works in the real world, and I care just as much about how it{" "}
                 <em className="not-italic text-foreground">looks and feels</em> as how it runs.
               </p>
             </div>

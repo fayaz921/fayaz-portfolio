@@ -16,10 +16,20 @@ const projects: Project[] = [
   {
     title: "Litigation Tracking System (LTS)",
     role: "Tech Lead",
-    description: "SaaS case management platform for law firms.",
+    description: "AWS DevArena 2026 winning SaaS case management platform.",
     longDescription:
-      "End-to-end SaaS for law firms — case lifecycle, hearings, documents, billing. Built with ASP.NET 10, Vertical Slice + CQRS via MediatR, Hangfire background jobs, PostgreSQL on Neon, Cloudinary for assets, and a React + TypeScript front end.",
-    tech: ["ASP.NET 10", "React", "TypeScript", "CQRS", "MediatR", "Hangfire", "PostgreSQL", "Cloudinary"],
+      "SaaS case management platform for law firms, replacing paper-based processes with centralized tracking for cases, hearings, documents, and petitioners. Leading a 7-member team with ASP.NET 10 Web API, Vertical Slice + CQRS via MediatR, Hangfire, JWT, FluentValidation, Serilog, PostgreSQL on Neon, Cloudinary, and a React + Vite + TypeScript front end.",
+    tech: [
+      "ASP.NET 10",
+      "React",
+      "TypeScript",
+      "CQRS",
+      "MediatR",
+      "Hangfire",
+      "PostgreSQL",
+      "Cloudinary",
+      "Jira",
+    ],
     links: [
       { label: "API", href: "https://github.com/fayaz921/LTS-API", icon: "github" },
       { label: "Client", href: "https://github.com/fayaz921/LTS-Client", icon: "github" },
@@ -30,8 +40,16 @@ const projects: Project[] = [
     title: "Netrex E-Commerce Platform",
     description: "Multi-module e-commerce platform.",
     longDescription:
-      "Multi-module e-commerce: User, Payment, Cart, Product, and Seller modules. Built with ASP.NET 9, Blazor UI, Clean Architecture, PostgreSQL on Render, and Cloudinary media pipeline.",
-    tech: ["ASP.NET 9", "Blazor", "Clean Architecture", "PostgreSQL", "Cloudinary"],
+      "Built a 5-module e-commerce platform covering User, Payment, Cart, Product, and Seller modules. Owned Payment and Payout plus User Management modules end-to-end, using ASP.NET 9, Blazor, Bootstrap, Clean Architecture, JWT, FluentValidation, Serilog, PostgreSQL on Render, and Cloudinary.",
+    tech: [
+      "ASP.NET 9",
+      "Blazor",
+      "Bootstrap",
+      "Clean Architecture",
+      "JWT",
+      "PostgreSQL",
+      "Cloudinary",
+    ],
     links: [
       {
         label: "Source",
@@ -44,7 +62,7 @@ const projects: Project[] = [
     title: "Online Complaint Management System",
     description: "Multi-role complaint tracking app.",
     longDescription:
-      "Multi-role complaint tracking with ASP.NET MVC, AJAX, jQuery, and SQL Server. Role-based dashboards, status workflows, and reporting.",
+      "Built a multi-role complaint management system with user and admin dashboards for submission, tracking, and resolution. Implemented real-time UI updates using AJAX and jQuery, plus admin reporting and filtering features.",
     tech: ["ASP.NET MVC", "AJAX", "jQuery", "SQL Server"],
     links: [
       {
@@ -58,7 +76,7 @@ const projects: Project[] = [
     title: "School Management System",
     description: "Desktop app for school operations.",
     longDescription:
-      "Windows Forms desktop app for managing students, classes, and staff. Built with C#, ADO.NET, and SQL Server.",
+      "Windows Forms desktop app for student enrollment, staff records, fee tracking, and class scheduling. Implemented database operations with ADO.NET and stored procedures for reliable data handling.",
     tech: ["C#", "WinForms", "ADO.NET", "SQL Server"],
     links: [
       {
@@ -77,7 +95,7 @@ export function Projects() {
         <SectionHeader
           eyebrow="Selected work"
           title="Projects I'm proud of"
-          description="Real production systems — from SaaS platforms to enterprise tools."
+          description="Real production systems, from SaaS platforms to enterprise tools."
         />
 
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">

@@ -7,7 +7,7 @@ const certs = [
     title: "Advance Web Application Development",
     issuer: "NAVTTC, Govt. of Pakistan",
     year: "2026",
-    note: "Grade A · Internationally accredited",
+    note: "Grade A",
   },
   {
     title: "Web Development",

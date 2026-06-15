@@ -108,7 +108,7 @@ export function Hero() {
             transition={{ delay: 2.3, duration: 0.6 }}
             className="max-w-xl text-base text-muted-foreground sm:text-lg lg:mx-0"
           >
-            Building scalable SaaS platforms & web APIs with{" "}
+            1+ year building scalable SaaS platforms & web APIs with{" "}
             <span className="font-medium text-foreground">.NET</span> &{" "}
             <span className="font-medium text-foreground">React</span>.
           </motion.p>
@@ -127,7 +127,7 @@ export function Hero() {
               <ExternalLink className="relative z-10 h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </button>
             <a
-              href="/Muhammad-Fayaz-CV.pdf"
+              href="/MuhammadFayaz_DotNETDeveloper_1YOE.pdf.pdf"
               download
               className="group inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-foreground backdrop-blur-sm transition-all duration-300 hover:border-electric/50 hover:bg-white/10"
             >

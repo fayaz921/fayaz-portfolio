@@ -15,11 +15,12 @@ const groups = [
       "Hangfire",
       "FluentValidation",
       "Serilog",
+      "JWT",
     ],
   },
   {
     name: "Frontend",
-    items: ["React", "TypeScript", "Vite", "JavaScript", "jQuery", "Bootstrap"],
+    items: ["React", "TypeScript", "Vite", "JavaScript", "jQuery", "Bootstrap", "Zustand"],
   },
   {
     name: "Databases",
@@ -35,6 +36,8 @@ const groups = [
       "Agile / Scrum",
       "Jira",
       "Git",
+      "xUnit",
+      "SonarQube",
     ],
   },
 ];
@@ -68,9 +71,7 @@ export function TechStack() {
                   </span>
                   <span className="h-px flex-1 bg-gradient-to-r from-electric/40 to-transparent" />
                 </div>
-                <h3 className="mb-5 font-display text-2xl font-bold text-foreground">
-                  {g.name}
-                </h3>
+                <h3 className="mb-5 font-display text-2xl font-bold text-foreground">{g.name}</h3>
                 <div className="flex flex-wrap gap-2">
                   {g.items.map((item, i) => (
                     <motion.span

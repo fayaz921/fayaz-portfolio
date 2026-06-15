@@ -6,21 +6,20 @@ const experiences = [
   {
     company: "10Pearls Pakistan",
     role: ".NET Fullstack Intern",
-    period: "Apr 2026 — Present",
+    period: "Apr 2026 - Jun 2026",
     location: "Remote",
     description:
-      "Selected for the competitive Shine Program (Cohort 8) — an AI-powered 8-week virtual program. Building full-stack apps with ASP.NET Core (backend) and ReactJS (frontend) under dedicated technical mentorship.",
-    tags: ["ASP.NET Core", "ReactJS", "Mentorship"],
-    accent: true,
+      "Built a full-stack application using ASP.NET Core and ReactJS, covering JWT auth, role-based access control, logging with Serilog, unit testing with xUnit, and SonarQube quality checks.",
+    tags: ["ASP.NET Core", "ReactJS", "JWT", "xUnit", "SonarQube"],
   },
   {
     company: "Netrex Solutions",
-    role: "Full Stack .NET Developer",
-    period: "Jan 2025 — Mar 2026",
+    role: "Full Stack .NET Developer (Part-time)",
+    period: "Jan 2025 - Mar 2026",
     location: "Dera Ismail Khan",
     description:
-      "Built and maintained production web apps and RESTful APIs using ASP.NET Core, MVC, Web API, JWT auth, and role-based access control. Engineered EF Core schemas with Repository / Unit-of-Work patterns. Applied Clean Architecture across projects. Collaborated using Git, code reviews, and structured branching.",
-    tags: ["ASP.NET Core", "Blazor", "EF Core", "PostgreSQL", "Clean Architecture"],
+      "Built web applications and RESTful APIs using ASP.NET Core, MVC, and Web API with JWT authentication and role-based access control. Worked with SQL Server and PostgreSQL using EF Core, developed Blazor, JavaScript, jQuery, and WinForms features, and collaborated with Git, code reviews, and structured branching.",
+    tags: ["ASP.NET Core", "Blazor", "EF Core", "SQL Server", "PostgreSQL"],
   },
   {
     company: "FutureXcel",
@@ -28,17 +27,8 @@ const experiences = [
     period: "Dec 2025",
     location: "Remote",
     description:
-      "Developed full-stack features using ASP.NET, Blazor, and SQL Server following industry best practices. Built CRUD modules, a To-Do application, and a role-based system in a remote team environment.",
-    tags: ["ASP.NET", "Blazor", "SQL Server"],
-  },
-  {
-    company: "Dev Weekends",
-    role: "Software Engineering Mentee",
-    period: "Nov 2025 — Mar 2026",
-    location: "Remote",
-    description:
-      "Participated in the 2025–26 Cohort — a structured software engineering program led by senior industry engineers. Attended 30 DSA sessions and 12 engineering weekends covering system design, backend practices, and real-world problem solving. Mock interviews, portfolio dev, industry best practices.",
-    tags: ["DSA", "System Design", "Mentorship"],
+      "Built a full-stack application with JWT auth and role-based Admin and User panels using ASP.NET Core and Blazor. Contributed in a remote team environment following industry best practices and clean code principles.",
+    tags: ["ASP.NET Core", "Blazor", "JWT", "SQL Server"],
   },
 ];
 
@@ -49,7 +39,7 @@ export function Experience() {
         <SectionHeader
           eyebrow="Career"
           title="Where I've worked"
-          description="From production SaaS platforms to elite mentorship programs."
+          description="Professional roles building production web apps, APIs, and full-stack systems."
         />
 
         <div className="relative">
@@ -77,9 +67,7 @@ export function Experience() {
                 </div>
 
                 <div className={i % 2 === 0 ? "sm:text-right" : ""}>
-                  <div
-                    className={`pl-12 sm:pl-0 ${i % 2 === 0 ? "sm:pr-12" : "sm:pl-12"}`}
-                  >
+                  <div className={`pl-12 sm:pl-0 ${i % 2 === 0 ? "sm:pr-12" : "sm:pl-12"}`}>
                     <div className="font-mono text-xs uppercase tracking-wider text-electric">
                       {exp.period}
                     </div>
@@ -116,16 +104,7 @@ export function Experience() {
                 </div>
 
                 <div className={`pl-12 sm:pl-0 ${i % 2 === 0 ? "sm:pl-12" : "sm:pr-12"}`}>
-                  <div
-                    className={`group glass relative overflow-hidden rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 hover:border-electric/40 sm:p-6 ${
-                      exp.accent ? "ring-1 ring-electric/30" : ""
-                    }`}
-                  >
-                    {exp.accent && (
-                      <div className="absolute right-3 top-3 rounded-full bg-electric/15 px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-electric">
-                        Current
-                      </div>
-                    )}
+                  <div className="group glass relative overflow-hidden rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 hover:border-electric/40 sm:p-6">
                     <p className="text-sm leading-relaxed text-muted-foreground">
                       {exp.description}
                     </p>
