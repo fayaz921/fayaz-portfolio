@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Github, Linkedin, Mail, ArrowDown, Download, ExternalLink } from "lucide-react";
-import profilePhoto from "/profile-photo.png";
+// import profilePhoto from "/profile-photo.png";
 
 const titles = [".NET Developer", "Tech Lead", "Full-Stack Engineer"];
 
@@ -127,7 +127,7 @@ export function Hero() {
               <ExternalLink className="relative z-10 h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </button>
             <a
-              href="/MuhammadFayaz_DotNETDeveloper_1YOE.pdf.pdf"
+              href="/CV_Muhammad-Fayaz-FullStack.pdf"
               download
               className="group inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-foreground backdrop-blur-sm transition-all duration-300 hover:border-electric/50 hover:bg-white/10"
             >
