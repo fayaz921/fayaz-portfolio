@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Github, Linkedin, Mail, ArrowDown, Download, ExternalLink } from "lucide-react";
-// import profilePhoto from "/profile-photo.png";
+import profilePhoto from "/portfolio-image.png";
 
 const titles = [".NET Developer", "Tech Lead", "Full-Stack Engineer"];
 
