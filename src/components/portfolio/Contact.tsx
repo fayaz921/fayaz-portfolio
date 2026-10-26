@@ -65,7 +65,7 @@ export function Contact() {
               </div>
 
               <a
-                href="tel:+923305453777"
+                href="tel:+923089314931"
                 className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-4 transition-all hover:border-electric/40 hover:bg-electric/5"
               >
                 <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-electric/20 to-cyan-glow/20 text-electric">
@@ -76,7 +76,7 @@ export function Contact() {
                     Phone
                   </div>
                   <div className="text-sm font-medium text-foreground transition-colors group-hover:text-electric">
-                    +92-330-5453777
+                    +92-308-9314931
                   </div>
                 </div>
               </a>

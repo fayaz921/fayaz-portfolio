@@ -16,7 +16,7 @@ const highlights = [
   {
     icon: Database,
     label: "Full-stack",
-    text: ".NET, React + TS, PostgreSQL, SQL Server, Blazor.",
+    text: ".NET, React, Blazor, SQL Server, PostgreSQL, Azure.",
   },
   {
     icon: Zap,
@@ -32,7 +32,7 @@ export function About() {
         <SectionHeader
           eyebrow="About"
           title="A developer who ships"
-          description="Full-Stack .NET Developer based in Islamabad, Pakistan, with 1+ year of experience building SaaS platforms, web APIs, and enterprise apps."
+          description="Full-Stack .NET Developer based in Islamabad, Pakistan, with 1.5+ years of experience building production applications, REST APIs, and role-based systems."
         />
 
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1.2fr_1fr]">
@@ -47,16 +47,15 @@ export function About() {
             <div className="relative flex flex-col gap-5">
               <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
                 I'm a <span className="font-medium text-foreground">Full-Stack .NET Developer</span>{" "}
-                with 1+ year of hands-on experience building real web applications, RESTful APIs,
-                and SaaS platforms for business clients.
+                with 1.5+ years of hands-on experience building production web applications, RESTful
+                APIs, and role-based systems for local and international clients.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
-                I started at <span className="text-electric">Netrex Solutions</span> shipping
-                projects with ASP.NET Core, Blazor, EF Core, SQL Server, and PostgreSQL, applying
-                Clean Architecture across multiple modules. I also completed the{" "}
-                <span className="text-electric">10Pearls Pakistan</span> .NET Fullstack internship,
-                where I built full-stack features with JWT auth, role-based access control, Serilog,
-                xUnit, and SonarQube.
+                At <span className="text-electric">Netrex Solutions</span>, I contribute to
+                production applications across requirements, database design, APIs, frontend
+                development, testing, and deployment. My work includes role-based systems,
+                e-commerce payments, and full-stack features using ASP.NET Core, React, Blazor, and
+                SQL Server or PostgreSQL.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
                 I lead development of the{" "}
@@ -65,7 +64,7 @@ export function About() {
                 <span className="font-mono text-sm text-cyan-glow">
                   ASP.NET 10 + React + Vertical Slice + CQRS
                 </span>
-                .
+                , leading a 7-member team and setting up Docker and GitHub Actions CI/CD.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
                 I write code that works in the real world, and I care just as much about how it{" "}
@@ -99,4 +98,3 @@ export function About() {
     </section>
   );
 }
-

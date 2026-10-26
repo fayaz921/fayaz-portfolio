@@ -4,7 +4,7 @@ import { SectionHeader } from "./SectionHeader";
 
 const certs = [
   {
-    title: "Advance Web Application Development",
+    title: "Advanced Web Application Development",
     issuer: "NAVTTC, Govt. of Pakistan",
     year: "2026",
     note: "Grade A",

@@ -16,13 +16,16 @@ const projects: Project[] = [
   {
     title: "Litigation Tracking System (LTS)",
     role: "Tech Lead",
-    description: "AWS DevArena 2026 winning SaaS case management platform.",
+    description: "AWS DevArena 2026-winning SaaS case management platform for law firms.",
     longDescription:
-      "SaaS case management platform for law firms, replacing paper-based processes with centralized tracking for cases, hearings, documents, and petitioners. Leading a 7-member team with ASP.NET 10 Web API, Vertical Slice + CQRS via MediatR, Hangfire, JWT, FluentValidation, Serilog, PostgreSQL on Neon, Cloudinary, and a React + Vite + TypeScript front end.",
+      "Leading a 7-member team building a SaaS case management platform for Pakistan's 200,000+ registered lawyers. Own the full-stack architecture: ASP.NET 10 Web API, Vertical Slice Architecture, CQRS, MediatR, Hangfire, JWT, FluentValidation, and Serilog. Built the React + TypeScript frontend with Feature Sliced Design, Zustand, and React Query, plus a Next.js landing page. Set up Docker and GitHub Actions CI/CD with PostgreSQL on Neon and Cloudinary.",
     tech: [
       "ASP.NET 10",
       "React",
       "TypeScript",
+      "Next.js",
+      "Zustand",
+      "React Query",
       "CQRS",
       "MediatR",
       "Hangfire",
@@ -40,7 +43,7 @@ const projects: Project[] = [
     title: "Netrex E-Commerce Platform",
     description: "Multi-module e-commerce platform.",
     longDescription:
-      "Built a 5-module e-commerce platform covering User, Payment, Cart, Product, and Seller modules. Owned Payment and Payout plus User Management modules end-to-end, using ASP.NET 9, Blazor, Bootstrap, Clean Architecture, JWT, FluentValidation, Serilog, PostgreSQL on Render, and Cloudinary.",
+      "Contributed to a multi-module e-commerce platform using Clean Architecture, JWT authentication, and FluentValidation. Owned the Payment & Payout module, including a wallet-based transaction system with admin-verified approvals. Built the Blazor storefront and integrated Azure Blob Storage and Cloudinary, then containerized the app and automated builds with CI/CD.",
     tech: [
       "ASP.NET 9",
       "Blazor",
@@ -49,6 +52,9 @@ const projects: Project[] = [
       "JWT",
       "PostgreSQL",
       "Cloudinary",
+      "Azure Blob Storage",
+      "Docker",
+      "CI/CD",
     ],
     links: [
       {
@@ -68,20 +74,6 @@ const projects: Project[] = [
       {
         label: "Source",
         href: "https://github.com/fayaz921/Online-Complaint-Managment-System",
-        icon: "github",
-      },
-    ],
-  },
-  {
-    title: "School Management System",
-    description: "Desktop app for school operations.",
-    longDescription:
-      "Windows Forms desktop app for student enrollment, staff records, fee tracking, and class scheduling. Implemented database operations with ADO.NET and stored procedures for reliable data handling.",
-    tech: ["C#", "WinForms", "ADO.NET", "SQL Server"],
-    links: [
-      {
-        label: "Source",
-        href: "https://github.com/fayaz921/SchoolManagmentSystem_DevFayaz",
         icon: "github",
       },
     ],

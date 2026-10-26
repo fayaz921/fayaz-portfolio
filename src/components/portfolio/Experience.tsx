@@ -4,31 +4,22 @@ import { SectionHeader } from "./SectionHeader";
 
 const experiences = [
   {
-    company: "10Pearls Pakistan",
-    role: ".NET Fullstack Intern",
-    period: "Apr 2026 - Jun 2026",
-    location: "Remote",
-    description:
-      "Built a full-stack application using ASP.NET Core and ReactJS, covering JWT auth, role-based access control, logging with Serilog, unit testing with xUnit, and SonarQube quality checks.",
-    tags: ["ASP.NET Core", "ReactJS", "JWT", "xUnit", "SonarQube"],
-  },
-  {
     company: "Netrex Solutions",
-    role: "Full Stack .NET Developer (Part-time)",
-    period: "Jan 2025 - Mar 2026",
-    location: "Dera Ismail Khan",
+    role: "Full Stack .NET Developer · Full-time",
+    period: "Jan 2025 - Present",
+    location: "Hybrid",
     description:
-      "Built web applications and RESTful APIs using ASP.NET Core, MVC, and Web API with JWT authentication and role-based access control. Worked with SQL Server and PostgreSQL using EF Core, developed Blazor, JavaScript, jQuery, and WinForms features, and collaborated with Git, code reviews, and structured branching.",
-    tags: ["ASP.NET Core", "Blazor", "EF Core", "SQL Server", "PostgreSQL"],
-  },
-  {
-    company: "FutureXcel",
-    role: "Full Stack .NET Developer Intern",
-    period: "Dec 2025",
-    location: "Remote",
-    description:
-      "Built a full-stack application with JWT auth and role-based Admin and User panels using ASP.NET Core and Blazor. Contributed in a remote team environment following industry best practices and clean code principles.",
-    tags: ["ASP.NET Core", "Blazor", "JWT", "SQL Server"],
+      "Contributed to 10+ production web applications for local and international clients, working across requirements, database design, backend APIs, frontend UI, testing, and deployment. Built maintainable ASP.NET Core systems with Clean Architecture and EF Core, designed JWT-secured role-based access, owned e-commerce payment and payout workflows, and delivered responsive React, TypeScript, and Blazor interfaces. Also containerized applications with Docker and automated builds and deployments with GitHub Actions.",
+    tags: [
+      "ASP.NET Core",
+      "React",
+      "TypeScript",
+      "Blazor",
+      "SQL Server",
+      "PostgreSQL",
+      "Docker",
+      "Azure",
+    ],
   },
 ];
 
@@ -39,7 +30,7 @@ export function Experience() {
         <SectionHeader
           eyebrow="Career"
           title="Where I've worked"
-          description="Professional roles building production web apps, APIs, and full-stack systems."
+          description="Full-time experience building production web apps, APIs, and full-stack systems."
         />
 
         <div className="relative">

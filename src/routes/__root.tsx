@@ -33,7 +33,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Portfolio of Muhammad Fayaz - Full-Stack .NET Developer with 1+ year of experience building SaaS platforms with .NET & React.",
+          "Portfolio of Muhammad Fayaz - Full-Stack .NET Developer with 1.5+ years of experience building SaaS platforms and production applications with .NET & React.",
       },
       { name: "author", content: "Muhammad Fayaz" },
       { name: "theme-color", content: "#0a0e1a" },

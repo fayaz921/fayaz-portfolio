@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Award, GraduationCap, Users } from "lucide-react";
+import { Award, GraduationCap } from "lucide-react";
 import { SectionHeader } from "./SectionHeader";
 
 const achievements = [
@@ -13,19 +13,18 @@ const achievements = [
   },
   {
     icon: GraduationCap,
-    title: "NAVTTC",
-    meta: "Technical Trainee · Sep 2025 - Nov 2025",
+    title: "NAVTTC Web Application Development",
+    meta: "Grade A · 2026",
     description:
-      "Competitively selected for the Government of Pakistan Prime Minister's Initiative training program and completed 3 months of intensive onsite web application development training with Grade A.",
-    tags: ["Advanced Web App Development", "Grade A", "Govt. of Pakistan"],
+      "Completed Advanced Web Application Development training through the Government of Pakistan's NAVTTC program.",
+    tags: ["Advanced Web App Development", "Govt. of Pakistan"],
   },
   {
-    icon: Users,
-    title: "Dev Weekends",
-    meta: "Software Engineer · Nov 2025 - Present",
-    description:
-      "Part of the Dev Weekends community, working on DSA, system design, full-stack engineering, AI integration, DevOps, and advanced engineering concepts with experienced mentors.",
-    tags: ["DSA", "System Design", "Mentorship"],
+    icon: GraduationCap,
+    title: "B.S. Computer Science",
+    meta: "2022 - 2026",
+    description: "Gomal University, Dera Ismail Khan, Pakistan. Graduated with a 3.93/4.00 CGPA.",
+    tags: ["Gomal University", "CGPA 3.93/4.00"],
   },
 ];
 

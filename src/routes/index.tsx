@@ -18,7 +18,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Muhammad Fayaz - Full-Stack .NET Developer with 1+ year of experience building SaaS platforms and web APIs with .NET, React, and Clean Architecture.",
+          "Muhammad Fayaz - Full-Stack .NET Developer with 1.5+ years of experience building production applications, SaaS platforms, and web APIs with .NET and React.",
       },
       { property: "og:title", content: "Muhammad Fayaz - Full-Stack .NET Developer" },
       {
